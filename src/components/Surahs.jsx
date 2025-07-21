@@ -28,11 +28,11 @@ const Surahs = ({ ayah, onPlay, isPlaying, scrollAyahRef, arti, setShowModalId, 
         />
         <div className="max-w-[94%]">
           <span className="lg:text-4xl text-2xl lg:leading-[130px] leading-[60px]">{ayah.text}</span>
-          <span className="absolute lg:mt-8 mt-3 lg:w-14 w-9 lg:h-14 h-9 ">
+          <span className="absolute lg:mt-8 mt-3 lg:w-14 w-10 lg:h-14 h-10 ">
             <div className="relative w-full flex justify-center items-center  ">
               <img src="/img/border.png" alt="" className="object-contain" />
               <div className="absolute">
-                <p className="lg:text-lg text-xss tracking-[0.03em] ">{ayah.numberInSurah.toLocaleString("ar-EG")}</p>
+                <p className="lg:text-lg text-xs tracking-[0.03em] ">{ayah.numberInSurah.toLocaleString("ar-EG")}</p>
               </div>
             </div>
           </span>

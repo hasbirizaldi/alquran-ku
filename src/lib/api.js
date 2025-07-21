@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://api.alquran.cloud/v1";
+const BASE_URL = "https://api.alquran.cloud/v1";
 
 export const api = axios.create({
   baseURL: BASE_URL,
