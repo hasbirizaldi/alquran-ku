@@ -10,6 +10,7 @@ import Forward10Icon from "@mui/icons-material/Forward10";
 import Replay10Icon from "@mui/icons-material/Replay10";
 import PauseRoundedIcon from "@mui/icons-material/PauseRounded";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
+import logo from "../../public/img/logo2.png";
 
 const DetailSurat = () => {
   const { id } = useParams();
@@ -191,7 +192,7 @@ const DetailSurat = () => {
       </div>
       <div className={`bg-red-100 flex items-center shadow-top opacity-90 h-14 w-full left-0 fixed bottom-0 z-10 duration-300 ease-in-out ${currentPlayingId ? "translate-y-0" : "translate-y-40 "}`}>
         <div className="absolute left-0 bottom-0 lg:w-60 w-36 h-14 bg-green-700 flex flex-row justify-start items-center text-white ">
-          <img src="/public/img/logo2.png" alt="logo" className="w-14" />
+          <img src={logo} alt="logo" className="w-14" />
           <div className=" flex-col leading-5 flex">
             <h2 className="text-base  amiri-bold lg:block hidden">Al Quran Ku</h2>
             <h3 className="text-sm amiri-regular flex lg:flex-row flex-col lg:gap-4 gap-1">
