@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .writing-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+  .writing-vertical-lr {
+    writing-mode: vertical-lr;
+  }
+  .writing-horizontal {
+    writing-mode: horizontal-tb;
+  }
+  .writing-horizontal-rl {
+    writing-mode: horizontal-tb;
+  }
+  .direction-rtl {
+    direction: rtl;
+  }
+  .direction-ltr {
+    direction: ltr;
+  }
+}
